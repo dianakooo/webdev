@@ -1,0 +1,60 @@
+﻿background-color:
+фиолетовый: #6451d5 
+серый: #efefef
+button-color: #382d78
+
+top menu:
+Trebuchet MS bold 18pt #ffffff
+
+promo text:
+Учеба ещё никогда…
+Trebuchet MS bold 45pt #ffffff
+Обучаем готовых к…
+Tahoma regular 18pt #bcb3f2
+Подать заявку
+Trebuchet MS bold 20pt #ffffff
+advantages:
+Гибкий график обучения
+Trebuchet MS bold 22pt #000000
+Современный темп жизни требует гибкого подхода к расписанию.
+Tahoma regular 18pt #555555
+
+table:
+border-color: #a7a7a7
+
+Формы обучения
+Trebuchet MS bold 45pt #000000
+1 строка
+Tahoma regular 18pt #404040
+2, 3 строки – 1, 2 столбик
+Trebuchet MS bold 22pt #ffffff
+2, 3 строки – 3 столбик
+Tahoma regular 18pt #404040
+
+feedback:
+Обратная связь
+Trebuchet MS bold 45pt #000000
+ОТПРАВИТЬ
+Trebuchet MS bold 20pt #ffffff
+Заинтересовались…
+Trebuchet MS bold 22pt #000000
+Внимание!
+Tahoma bold 18pt #000000
+Все поля… + same
+Tahoma regular 18pt #555555
+Представьтесь, … + м/ж + same
+Tahoma regular 18pt #404040
+ФИО+ same
+Trebuchet MS bold 18pt #000000
+
+footer:
+bg-color: #2a2546
+
+197101…
+Tahoma regular 18pt #ffffff
+обучение + same
+Tahoma bold 18pt #ffffff
+Расписание предметы + same
+Tahoma regular 18pt #a39ebe
+
+

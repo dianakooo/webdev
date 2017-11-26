@@ -1,0 +1,308 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+div {
+/*	border: 1px dotted gray;*/
+}
+ul {
+	list-style: none;
+}
+
+/*header*/
+.main-header {
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 33px;
+	padding-bottom:155px;
+	background: #6451d5;
+	background-image: url(../img/item.png);
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	border: 0.5px solid blue;
+}
+.main-header li {
+	display: inline-block;
+
+}
+.main-header a {
+	text-decoration: none;
+	color: white;
+}
+.container {
+	width:;
+	margin: ;
+	padding:;
+}
+.header-top {
+	margin-bottom:;
+	border: 1px solid red;
+}
+.header-top::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+.logo {
+	float: left;
+	width:;
+	min-height:;
+	border: 0.5px solid yellow;
+}
+.main-menu {
+	float: right;
+	width:;
+	min-height:;
+	margin-top:;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 18px;
+	border: 0.5px solid yellow;
+}
+.promo {
+	width:;
+	min-height:;
+	border: 0.5px solid red;
+}
+.promo-title {
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 45px;
+}
+.promo p {
+	font-family: Tahoma regular;
+	font-size: 18px;
+	color: #bcb3f2;
+}
+
+/*блок features*/
+/*Короче, я пыталась-пыталась сделать его нормальным, но никак. Все размеры совпадают с макетом, но он все равно не хочет выглядеть нормально. Если что, то все вот эти маргины и паддинги рассчитаны из того, что ширина макета 1200пх (какой она и является, но не в браузере). */
+.features {
+	padding-top:;
+	padding-bottom:;
+	padding:40px 60px;
+	background-color: #efefef;
+}
+
+.features-item {
+	display:inline-block;
+	width:320px;
+	margin-left:30px;
+	padding: 70px 10px 0;
+	min-height:;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.features-item:last-child {
+	margin-right:30px;
+}
+.features-icon-schedule{
+	background-image: url("../img/icon1.png");
+}
+.features-icon-practice {
+	background-image: url("../img/icon2.png");
+}
+.features-icon-work {
+	background-image: url("../img/icon3.png");
+}
+.features-title {
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+}
+.features p {
+	font-family: Tahoma regular;
+	font-size: 18px;
+	color: #555555;
+	text-align: center;
+}
+/*блок forms*/
+.forms {
+	padding-top:;
+	padding-bottom:;
+	border: 0.5px solid blue;
+}
+.forms-title,
+.contacts-title {
+	margin: 0;
+	margin-bottom:;
+	min-height:;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 45px;
+	border: 0.5px solid red;
+}
+table {
+	border: 2px solid #a7a7a7;
+	border-top: 3px solid #a7a7a7;
+	border-collapse: collapse;
+	font-family: Tahoma regular;
+	font-size: 18px;
+	color: #404040;
+}
+table strong {
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+}
+tr {
+	border: 2px solid #a7a7a7;
+}
+.tr-first {
+	background-color: #efefef;
+}
+td {
+	border: 2px solid #a7a7a7;
+}
+
+/*блок contacts*/
+.contacts {
+	padding: 50px 90px;
+	background-color: #efefef;
+	border: 0.5px solid blue;
+}
+.contacts .container {
+	display: table;
+  width: 1080px;
+  height: 460px;
+	content: "";
+  border: 0.5px solid red;
+  padding: 0px 30px;
+}
+.contacts-title {
+  display: block;
+  border: 0.5px solid yellow;
+  height: 50px;
+  margin-bottom: 60px;
+}
+.contacts-form {
+	float: left;
+	width:670px;
+	min-height:420px;
+	border: 0.5px solid yellow;
+}
+.contacts-form .title{
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 18px;
+	color: black;	
+}
+.contacts-form .field {
+	font-family: Tahoma;
+	font-size: 18px;
+	color: #404040;
+}
+.contacts-form input[type="text"],
+.contacts-form textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	font-family: Tahoma;
+	font-size: 18px;
+	color: #404040;
+}
+.contacts-instruction {
+	float: right;
+	width:320px;
+	min-height:400px;
+	border: 0.5px solid yellow;
+	font-family: Tahoma;
+	font-size: 18px;
+	color: #555555;
+}
+.contacts-instruction strong{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 18px;
+	color: black;	
+}
+.contacts h3{
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+}
+
+/*блок footer*/
+.main-footer{
+	padding-top: 60px;
+	padding-left: 90px;
+  padding-bottom: 80px;
+  height: 360px;
+  width: ;
+	background-color: #2a2546;
+	border: 1px solid blue;
+}
+
+.footer-top::after{
+	display: table;
+	clear: both;
+	content: "";
+}
+.main-footer .container {
+  height: 230px;
+  width: 1080px;
+  border: 0.5px solid red;
+}
+.footer-menu{
+	background: #2a2546;
+	width: 1020px;
+  height: 230px;
+	margin: 0px 30px;
+	min-height:;
+	border: 0.5px solid blue;	
+}
+.footer-address{
+	background: #2a2546;
+	float: left;
+	height: 200px;
+  width: 320px;
+	margin-right:;
+	min-height:;
+	border: 0.5px solid green;
+	font-family: Tahoma;
+	font-size: 18px;
+	color: #ffffff;	
+}
+
+.footer-menu a{
+	text-decoration: none;
+	font-family: Tahoma;
+	font-size: 18px;
+	color: #a39ebe;
+}
+.footer-menu h3 {
+	font-weight: bold;
+	color: #ffffff;	
+	font-family: Tahoma;
+	font-size: 18px;
+}
+.footer-menu-element {
+	background: #2a2546;
+	float: left;
+	width: 160px;
+  height: 230px;
+	margin-top:;
+	min-height:;
+	border: 0.5px solid green;
+}
+.first {
+  margin-left: 30px;
+}
+.footer-menu-element:last-child {
+	float: right;
+	width:150px;
+}
+.btn-blue {
+	background-color: #382d78;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+}
