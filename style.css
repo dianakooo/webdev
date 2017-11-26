@@ -162,15 +162,18 @@ td {
 
 /*блок contacts*/
 .contacts {
+  padding-top: 85px;
+  padding-bottom: 80px;
 	padding: 50px 90px;
 	background-color: #efefef;
 	border: 0.5px solid blue;
 }
 .contacts .container {
-	display: table;
+  display: table;
+  clear: both;
+  content: "";
   width: 1080px;
   height: 460px;
-	content: "";
   border: 0.5px solid red;
   padding: 0px 30px;
 }
@@ -181,10 +184,10 @@ td {
   margin-bottom: 60px;
 }
 .contacts-form {
-	float: left;
-	width:670px;
-	min-height:420px;
-	border: 0.5px solid yellow;
+  float: left;
+  width: 670px;
+  border: 0.5px solid yellow;
+  min-height: 420px;
 }
 .contacts-form .title{
 	font-family: Trebuchet MS;
@@ -215,11 +218,15 @@ td {
 	font-size: 18px;
 	color: #555555;
 }
-.contacts-instruction strong{
+.contacts-instruction {
+	float: right;
+	width: 320px;
+	min-height: 420px;
+	min-height:400px;
+	border: 0.5px solid yellow;
 	font-family: Tahoma;
-	font-weight: bold;
 	font-size: 18px;
-	color: black;	
+	color: #555555;
 }
 .contacts h3{
 	font-family: Trebuchet MS;
