@@ -122,19 +122,27 @@ ul {
 }
 /*блок forms*/
 .forms {
-	padding-top:;
-	padding-bottom:;
+	width: 100%;
 	border: 0.5px solid blue;
+}
+.container {
+  border: 0.5px solid red;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 55px;
+  height: 435px;
+  margin-bottom: 75px;
+  
 }
 .forms-title,
 .contacts-title {
-	margin: 0;
-	margin-bottom:;
-	min-height:;
+	min-height: 50px;
 	font-family: Trebuchet MS;
 	font-weight: bold;
 	font-size: 45px;
 	border: 0.5px solid red;
+  width: 95%;
+  margin: 0% 2.5%;
 }
 table {
 	border: 2px solid #a7a7a7;
@@ -143,6 +151,10 @@ table {
 	font-family: Tahoma regular;
 	font-size: 18px;
 	color: #404040;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 60px;
+  height: 317px;
 }
 table strong {
 	font-family: Trebuchet MS;
